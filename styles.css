@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #101D42;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+ h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+label{
+    font-size:2.5rem;
+    margin:20px;
+    text-align: center;
+    color: #fff;
+}
+
+input,button{
+    height:50px;
+    min-width: 10% ;
+    text-align: center;
+    font-size:1.25rem;
+    font-weight: bold;
+    border-radius: 50px;
+    border-style: none;
+    padding: 0 1rem;
+    outline: none;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+
+.graphic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.graphic img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
