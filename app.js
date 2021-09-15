@@ -39,6 +39,7 @@ const calcStonks = (initial, quantity, current)  => {
 		}
 	}else{
 		output.innerText = `Enter valid inputs`;
+		output.style.color = 'red';
 		image.src = "/invalid.jpg";
 	}
 	
